@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="indah.com.iakbeginner.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/lollipop"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/mTVhbd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="23dp"
+        android:text="@string/hbd_text"
+        android:textColor="@color/putih"
+        android:textSize="33sp" />
+
+    <TextView
+        android:id="@+id/mTVfrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="11dp"
+        android:text="@string/from"
+        android:textColor="@color/putih"
+        android:textSize="33sp" />
+
+    <Button
+        android:id="@+id/mBTclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickBtn"
+        android:text="@string/click"
+        android:textSize="@dimen/text_20"/>
+
+</RelativeLayout>

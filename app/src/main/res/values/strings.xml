@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IAKBeginner</string>
+    <string name="hbd_text">Happy Birthday, buddy!</string>
+    <string name="from">from: your buddy</string>
+    <string name="click">Click Me!</string>
+    <string name="your_name">Your Name</string>
+    <string name="namaku">Indah Rizky Mahartika</string>
+    <string name="profesi">Mahasiswa</string>
+    <string name="jurusan">Teknik Informatika</string>
+    <string name="pts">Universitas Budi Luhur</string>
+    <string name="copyright">&#169; Copyright indahrizkym </string>
+    <string name="event">Indonesia Android Kejar</string>
+</resources>
